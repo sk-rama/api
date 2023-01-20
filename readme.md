@@ -2,7 +2,7 @@
 
 ## Counter
 
-You can set or update counter for any string (e.g. full website name like https://example/directory/filename)
+You can set or update counter for any string or full website name like https://www.mybluelinux.com/what-is-email-envelope-and-email-header/
 
 For set or update counter you must call url
 
@@ -23,6 +23,8 @@ Example:
 <img src="https://api.pyapi.org/api/counter/set/?id=https%3A%2F%2Fwww.mybluelinux.com%2Fwhat-is-email-envelope-and-email-header%2F" style="opacity: 0.0;">
 ```
 * **```style="opacity: 0.0;"```** make img full opacity
+
+### Hugo
 
 For usage in Hugo static site generator you must add this to your single page template:
 
