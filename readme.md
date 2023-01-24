@@ -26,7 +26,7 @@ curl -X 'GET' 'https://api.pyapi.org/api/counter/set/?id=https%3A%2F%2Fwww.myblu
 # output:
 {"counter":68}
 ```
-* **step** parameter is missing - it is optional parameter and default is 1
+* **step** parameter is missing; it is optional parameter; default is 1
 
 In html web pages you can use this call in **```<img>```** tag.
 
@@ -47,7 +47,7 @@ curl -X 'GET' 'https://api.pyapi.org/api/counter/get/as_json/?id=test'
 # output:
 {"counter":28}
 ```
-* **id** is required and it is any string value. "test" is string for get a counter
+* **id** is required and it is any string value; "test" is string for get a counter
 
 Example - recive counter for string "https://www.mybluelinux.com/what-is-email-envelope-and-email-header/"
 
